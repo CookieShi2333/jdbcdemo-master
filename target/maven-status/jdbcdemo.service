@@ -1,9 +1,0 @@
-[Unit]
-Description=myblog
-After=syslog.target
-
-[Service]
-ExecStart= /usr/bin/java -jar/root/demo/jdbcdemo.jar
-
-[Install]
-WantedBy=multi-user.target
